@@ -102,6 +102,38 @@ public class Demo {
         }
     }
 
+    // converting String to primitive
+    private static void stringToPrimitive() {
+        // example 13
+        {
+            String sourceValue = "true";
+            boolean booleanPrimitive = Boolean.parseBoolean(sourceValue);
+            System.out.println("sourceValue = \"true\". Actual value = " + booleanObject);
+        }
+        // example 14
+        {
+            String sourceValue = "false";
+            boolean booleanPrimitive = Boolean.parseBoolean(sourceValue);
+            System.out.println("sourceValue = \"false\". Actual value = " + booleanObject);
+        }
+    }
+
+    // converting String to primitive
+    private static void stringToPrimitive() {
+        // example 15
+        {
+            String sourceValue = "true";
+            boolean booleanPrimitive = Boolean.parseBoolean(sourceValue);
+            System.out.println("sourceValue = \"true\". Actual value = " + booleanObject);
+        }
+        // example 16
+        {
+            String sourceValue = "false";
+            boolean booleanPrimitive = Boolean.parseBoolean(sourceValue);
+            System.out.println("sourceValue = \"false\". Actual value = " + booleanObject);
+        }
+    }
+
     private static void m() {
         boolean result = new Boolean(true) == new Boolean(false);
         System.out.println(result);
